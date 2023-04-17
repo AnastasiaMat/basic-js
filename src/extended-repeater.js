@@ -15,7 +15,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * => 'STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS'
  *
  */
-function repeater((str, options) {
+function repeater(str, options) {
   if (typeof str !== 'string') {
     str = '' + str;
   }
